@@ -1,0 +1,263 @@
+/* styling af body */
+body {
+    background-color: #E7DFD8;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: sans-serif;
+}
+
+/* styling af navbar */
+
+/* styling af Logo i navbar */
+.logo {
+    position: absolute;
+    top: 13px;
+    left: 15px;
+    width: 120px;
+    height: 110px;
+    transition: opacity 0.3s ease; 
+}
+
+.logo:hover {
+    background-color: transparent;
+    cursor: pointer;
+    opacity: 0.8; 
+}
+
+/* styling af menupunkter */
+nav {
+    background-color: #E7DFD8;
+    padding: 40px;
+    position: static;
+    top: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    width: 14%;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px;
+}
+
+nav li:hover {
+    background-color: #c9c6c6;
+    cursor: pointer;
+}
+
+nav{
+    background-color: #E7DFD8;
+    padding: 40px;
+    position: static;
+    top: 0;
+    overflow: hidden;
+}
+
+nav ul{
+    white-space: nowrap;
+    margin: 0 0;
+    text-align: center;
+    position: static;
+  }
+
+  nav li{
+    width: 14%;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+ nav ul li:hover{
+    background-color:#c9c6c6;
+    cursor: pointer;
+    opacity: 1;
+ }
+
+
+
+  /* styling af h1 */
+
+h1 {
+    color: black;
+    font-size: 105px;
+    font-weight: lighter;
+    margin-left: 10px ;
+    margin-top: 200px ;
+    text-align: center;
+    position: relative;
+}
+
+/* styling af stjerner */
+.stjerne1 {
+    position: absolute;
+    top: 50px;
+    left: 460px;
+    width: 60px;
+    height: 50px;
+}
+
+.stjerne2 {
+    position: absolute;
+    top: 50px;
+    left: 980px;
+    width: 60px;
+    height: 60px;
+}
+
+/* styling af h2 */
+h2 {
+    color: black;
+    border: 2px solid none;
+    width: 600px;
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
+    position: relative;
+    margin-left: 470px;
+}
+
+/* styling af btn */
+.btn{
+    border: 2px solid white;
+    background-color: #c9c6c6;
+    font-size: 14px;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 655px;
+}
+
+.btn:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+/* styling af pizza & tapas foto*/
+.pizza {
+    position: absolute;
+    top: 110px;
+    left: 30px;
+    width: 550px;
+    height: 550px;
+    z-index: -1;
+}
+
+.tapas {
+    position: absolute;
+    top: 240px;
+    right: 30px;
+    width: 550px;
+    height: 550px;
+    z-index: -1;
+}
+
+/* styling af søgefelt */
+.search-bar {
+    width: 250px;
+    padding: 8px; 
+    border: 2px solid black; 
+    border-radius: 5px; 
+    outline: none; 
+    border-radius: 50px; 
+    background-color: #E7DFD8;
+    position: relative;
+    left: 1200px;
+    top: 20px;
+    font-family: sans-serif;
+}
+
+
+
+/* Styling af Footer */
+/*  Css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    background-color: #ededed;
+    margin-bottom: 0;
+}
+
+/* styling af footer */
+.footer {
+    position: relative;
+    bottom: -600px;
+    width: 100%;
+    background-color: #E7DFD8;
+    padding: 40px;
+    text-align: center;
+    color: #4b4c4d;
+}
+
+.social a {
+    font-size: 24px;
+    color: black;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+    transition: color 0.3s, opacity 0.3s;
+}
+
+.social a:hover {
+    color: grey;
+    opacity: 0.9;
+}
+
+.footer ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer ul li a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: color 0.3s, opacity 0.3s;
+}
+
+.footer ul li a:hover {
+    opacity: 1;
+    color: grey;
+}
+
